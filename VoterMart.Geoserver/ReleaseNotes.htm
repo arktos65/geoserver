@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Untitled 1</title>
+<style type="text/css">
+.style1 {
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.style2 {
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	font-size: small;
+}
+</style>
+</head>
+
+<body>
+
+<h1 class="style1">VoterMart™ Geoserver <br />
+    Release Notes</h1>
+<p><span class="style2">Version 1.1<br class="style2" />
+<span class="style2">Copyright © 2009-2011 by c.Spot InterWorks.&nbsp; All Rights 
+    Reserved.<p class="style2">The VoterMart Geoserver provides geospatial web services 
+including geocoding street addresses and political district coding.&nbsp; This 
+application is built on the Manifold GIS runtime engine.&nbsp; The following states are 
+        included in the geodatabase:&nbsp; California.</p>
+    <h2 class="style1">Version Notes</h2>
+    <h3 class="style2">Version 1.1</h3>
+    <ul>
+        <li>
+            
+            Results returned as XML formatted type.</li>
+        <li>
+            
+            Provide contact information for both state house legislators.</li>
+        <li>
+            
+            Provide contact information for federal senators.</li>
+    </ul>
+    <h3 class="style2"><b>Version 1.0</b></h3>
+<ul class="style2">
+    <li>Provides contact information lookup for California legislators by lower state house, 
+    upper state house and congressional district.</li>
+    <li>Supports one or more states legislative tables.</li>
+    <li>Improved error status messaging in results.</li>
+</ul>
+<h3 class="style2"><b>Version 0.1</b></h3>
+<ul class="style2">
+	<li>Provides GeocodeService for street address geocoding based on the TIGER 
+	street database.</li>
+	<li>Provides DistrictCodeService that geocodes a street address and returns 
+	lower state house, upper state house, and congressional district numbers.</li>
+	<li>District geodatabase included supports only the state of California in 
+	this version.</li>
+	<li>The geodatabase must be in a fixed location for the web services to 
+	work.&nbsp; This will be addressed in a future version.</li>
+	<li>Add GeocodeRawAddressWithStruct web method for geocoding and returning 
+	GeoMatch type.</li>
+</ul>
+<h2 class="style1">Software Requirements</h2>
+<p class="style2">The VoterMart Geoserver requires the following software in 
+order to operate correctly:</p>
+<ul class="style2">
+	<li>Windows Server 2003/2008</li>
+	<li>IIS 6.0 or greater</li>
+	<li>.NET Framework 3.5SP1 (required)</li>
+	<li>Manifold geocoder database</li>
+	<li>Manifold Runtime 8.0 with geocoder module</li>
+</ul>
+<h2 class="style1">Known Issues</h2>
+<ul>
+	<li class="style2">The VoterMart Geoserver will not run correctly with Microsoft 
+        .NET Framework 4 due to issues in the Manifold Runtime libraries.&nbsp; You must 
+        install .NET Framework 3.5 SP1.</li>
+    <li class="style2">While the Manifold GIS runtime engine supports a variety 
+	of different geocoding services including Microsoft MapPoint, there are many 
+	issues involving the use of the MapPoint database (which would be more 
+	accurate and extensive than TIGER) not to mention licensing issues.</li>
+</ul>
+
+</body>
+
+</html>

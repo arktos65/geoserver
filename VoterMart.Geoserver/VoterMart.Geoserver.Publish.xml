@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="ftp://geoserver.votermart.com/geoserver.votermart.com/wwwroot" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="geoserver.votermart.com" publishMethod="FTP" replaceMatchingFiles="True" userName="votermart" savePWD="True" userPWD="AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA1QD2JYFeGEKvsipD9DFDWwAAAAACAAAAAAAQZgAAAAEAACAAAAAgeCVKwxbQJnjn4Lr8AQD9PScFyFMa6o6SmWzw6UaSWQAAAAAOgAAAAAIAACAAAAB6+nAQFExdcw9m7Zky6z/4Yb9C1uvhyk10ym0G51G1wSAAAABUeCyq8/onxlajbbKkZJNrjY0eGS1rvHozG9pKzDzEykAAAAB3UD23eKZZiNxS/bS5la4A7hb5Ymq5p2O2JP1d6CY9OGDjInh5hua7BVKNPUx7jTRV5QM4GA/H6nTCE5fMMkC1" SelectedForPublish="True">
+    <file relUrl="test/TestDistrictLookup-PostMethod.htm" publishTime="06/14/2011 11:17:44" />
+    <file relUrl="VirtualminLogo.jpg" publishTime="06/13/2011 13:23:19" />
+    <file relUrl="Web.config" publishTime="06/14/2011 22:17:31" />
+    <file relUrl="ReleaseNotes.htm" publishTime="06/14/2011 11:22:30" />
+    <file relUrl="App_Data/Legislative-Geodb.map" publishTime="06/14/2011 13:23:32" />
+    <file relUrl="bin/Manifold.GeocodingServer.VirtualEarth.dll" publishTime="09/18/2010 19:18:14" />
+    <file relUrl="test/TestDelegateLookup-PostMethod.htm" publishTime="06/14/2011 11:17:35" />
+    <file relUrl="DistrictCodeService.asmx" publishTime="06/13/2011 13:23:19" />
+    <file relUrl="bin/VoterMart.Geoserver.dll" publishTime="06/14/2011 14:21:04" />
+    <file relUrl="default.htm" publishTime="06/14/2011 11:22:40" />
+    <file relUrl="GeocodeService.asmx" publishTime="06/13/2011 13:23:19" />
+    <file relUrl="bin/VoterMart.Geoserver.pdb" publishTime="06/14/2011 14:21:04" />
+  </publishProfile>
+</publishData>

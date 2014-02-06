@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>District Lookup Test - POST Method</title>
+    <style type="text/css">
+        #Text1
+        {
+            width: 415px;
+        }
+        #address
+        {
+            width: 415px;
+        }
+        #Text2
+        {
+            width: 415px;
+        }
+        #Text3
+        {
+            width: 415px;
+        }
+    </style>
+</head>
+<body>
+
+    <h3>
+        VoterMart Geoserver Test - POST Method</h3>
+
+
+<p>
+    This form can be used to test the DistrictCodeService in the geoserver using the 
+    HTML Form POST method using California geodatabase.&nbsp; State FIPS code is two 
+    digits (e.g. California is 06).</p>
+    <form action="../DistrictCodeService.asmx/GetLegislativeDistricts" method="post">
+    <p><b>Return Congressional|Lower House|Upper House Districts</b><br />Raw address:<br />
+    <input id="address" name="address" type="text" /><br />
+        State FIPS:<br />
+        <input id="fips" type="text" name="fips" />
+    
+    <input id="Submit1" type="submit" value="Submit" /></p></form>
+        <form action="../DistrictCodeService.asmx/GetCongressDistrict" method="post">
+    <p><b>Return Congressional District</b><br />Raw address:<br />
+    <input id="Text1" name="address" type="text" />
+        <br />
+        State FIPS:<br />
+        <input id="fips" type="text" name="fips" />
+    <input id="Submit2" type="submit" value="Submit" /></p></form>
+        <form action="../DistrictCodeService.asmx/GetLowerHouseDistrict" method="post">
+    <p><b>Return Lower State House District</b><br />Raw address:<br />
+    <input id="Text2" name="address" type="text" />
+        <br />
+        State FIPS:<br />
+        <input id="fips" type="text" name="fips" />
+    <input id="Submit3" type="submit" value="Submit" /></p></form>
+        <form action="../DistrictCodeService.asmx/GetUpperHouseDistrict" method="post">
+    <p><b>Return Upper State House District</b><br />Raw address:<br />
+    <input id="Text3" name="address" type="text" />
+        <br />
+        State FIPS:<br />
+        <input id="fips" type="text" name="fips" />
+    <input id="Submit4" type="submit" value="Submit" /></p></form>
+<p>
+    &nbsp;</p>
+<p>
+    Copyright &copy; 2009-2011 by c.Spot InterWorks.&nbsp; All rights reserved.</p>
+
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="VoterMart.Geoserver.GeocodeService">
+    <Position X="0.5" Y="0.5" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAgAAAAAAIA=</HashCode>
+      <FileName>GeocodeService.asmx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VoterMart.Geoserver.DistrictCodeService">
+    <Position X="3.5" Y="3" Width="5.25" />
+    <TypeIdentifier>
+      <HashCode>ChAAICAIAIAEgACBAAQCAAAkAEAAAICAAQiAAAAgAAA=</HashCode>
+      <FileName>DistrictCodeService.asmx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="VoterMart.Geoserver.GeoMatch">
+    <Position X="0.5" Y="3" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AIAACAAAAEAAAgAOAAAICEAAAAAAEAACAAAABCAAAAA=</HashCode>
+      <FileName>GeoMatch.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="VoterMart.Geoserver.DelegateStruct">
+    <Position X="9.25" Y="3" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AHAABMAEIGEAAkQIwAFUIEAAQpEEEBEAACCAJCAICIg=</HashCode>
+      <FileName>DelegateStruct.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="VoterMart.Geoserver.DistrictMatch">
+    <Position X="8.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAEAAAAAAQAAAAEAAAAABAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>DistrictMatch.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="VoterMart.Geoserver.LegislativeHouseEnum">
+    <Position X="5.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAQAAAAAAAAAAAAAIAAAAAAAAAAAAg=</HashCode>
+      <FileName>LegislativeHouseEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
