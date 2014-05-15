@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("GeocoderUnitTest")]
 [assembly: AssemblyDescription("Unit test console program for geocoder.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("c.Spot InterWorks")]
+[assembly: AssemblyCompany("BarriqueSoft")]
 [assembly: AssemblyProduct("VoterMart SDK")]
-[assembly: AssemblyCopyright("Copyright © c.Spot InterWorks 2009-2010")]
+[assembly: AssemblyCopyright("Copyright © Sean M. Sullivan 2009-2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
