@@ -1,5 +1,5 @@
 ﻿//	VoterMart.Tools.Geocoder
-//	Copyright (c) 2009-2011 by c.Spot InterWorks.  All Rights Reserved.
+//	Copyright (c) 2009-2014 by Sean M. Sullivan.  All Rights Reserved.
 //
 //	The above copyright notice and this permission notice shall be included in all 
 //	copies or substantial portions of the Software.
