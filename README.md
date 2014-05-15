@@ -15,7 +15,8 @@ Requirements
 * .NET Framework 3.5 or greater
 * Manifold GIS Runtime
 
-Copyright
----------
+Author & Copyright
+------------------
+Author:  Sean M. Sullivan (<sean@barriquesoft.com>)
 
-Copyright (c) 2009-2011 by c.Spot InterWorks.  All Rights Reserved.  See LICENSE.txt for licensing details.
+Copyright (c) 2009-2014 by Sean M. Sullivan.  All Rights Reserved.  See LICENSE.txt for licensing details.
